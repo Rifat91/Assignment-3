@@ -37,7 +37,7 @@ function budgetCalculator(watch, mobile, laptop){    //take three parameter in a
 
 function hotelCost(totalDays){
     var totalCost = 0;
-    if(totalDays < 0){
+    if(totalDays <= 0){
         return "Days can't be negative.";
     }
     if(totalDays <= 10){                          //calculation for first 10 days total cost.
